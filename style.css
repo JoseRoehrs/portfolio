@@ -17,9 +17,7 @@ html{
     --claro: #e2e8f0;
     --vidro: rgba(255, 255, 255, 0.1);
 }
-a{
-    text-decoration: none;
-}
+
 body{
     background-color: var(--escuro);
     color: var(--claro);
@@ -140,6 +138,8 @@ h1{
     backdrop-filter: blur(5px);
     border: 1px solid var(--vidro);
     overflow: hidden;
+    text-decoration: none;
+    color: var(--claro);
 }
 
 .projetos-card:hover{
